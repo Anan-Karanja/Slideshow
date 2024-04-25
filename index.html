@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/github.png" type="image/x-icon">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/44110e6aa1.js" crossorigin="anonymous" defer></script>
+    <title>Image Slider</title>
+</head>
+
+<body>
+    <!--Slideshow Container -->
+    <div class="Slideshow_container">
+        <!--  Full size images with number & caption text   -->
+        <div class="mySlides fade">
+            <div class="numberText">1/4</div>
+            <img src="./images/img1.jpg" alt="image 1">
+            <div class="text">Caption text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">2/4</div>
+            <img src="./images/img2.jpg" alt="image 2">
+            <div class="text">Caption text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">3/4</div>
+            <img src="./images/img3.jpg" alt="image 3">
+            <div class="text">Caption text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">4/4</div>
+            <img src="./images/img4.jpg" alt="image 4">
+            <div class="text">Caption text</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dots">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+        <span class="dot" onclick="currentSlides(4)"></span>
+    </div>
+</body>
+
+</html>
